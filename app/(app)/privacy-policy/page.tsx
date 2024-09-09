@@ -4,18 +4,13 @@ import Link from 'next/link';
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-black-900 text-gray-100 flex flex-col">
-      {/* Navbar */}
-      
-
-
-      {/*Privvacy policy Content */}
       <div className="flex-grow container mx-auto py-8 px-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Privacy Policy</h1>
 
         <p className="mb-8">Last updated: February 15, 2024</p>
 
         <p className="mb-8">
-          This Privacy Policy outlines the policies and procedures governing the collection, use, and disclosure of information when you utilize the services provided on the website nancymabez.com (referred to as "the Service") and informs you about your privacy rights and legal protections regarding your information.
+          This Privacy Policy outlines the policies and procedures governing the collection, use, and disclosure of information when you utilize the services provided on the website nancymabez.com (referred to as &quot;the Service&quot;) and informs you about your privacy rights and legal protections regarding your information.
         </p>
 
         <section className="mb-8">
@@ -27,7 +22,7 @@ const PrivacyPolicy = () => {
           <h3 className="text-xl font-semibold mb-4">Definitions</h3>
           <ul className="list-disc pl-6 mb-4 space-y-1">
             <li><strong>Account</strong> means a unique account created to access our Service or its parts.</li>
-            <li><strong>nancymabez.com / Company</strong> (referred to as "We", "Us", or "Our" in this document) refers to the operators of nancymabez.com.</li>
+            <li><strong>nancymabez.com / Company</strong> (referred to as &quot;We&quot;, &quot;Us&quot;, or &quot;Our&quot; in this document) refers to the operators of nancymabez.com.</li>
             <li><strong>Cookies</strong> are small files placed on Your computer, mobile device, or any other device by a website, containing details of Your browsing history among other uses.</li>
             <li><strong>Country</strong> refers to the location of the service provider, which is the United States in this case.</li>
             <li><strong>Device</strong> refers to any device capable of accessing the Service, such as a computer, cellphone, or tablet.</li>
@@ -60,7 +55,7 @@ const PrivacyPolicy = () => {
             We automatically collect Usage Data, including but not limited to:
           </p>
           <ul className="list-disc pl-6 mb-4 space-y-1">
-            <li>Your Device's IP address</li>
+            <li>Your Device&apos;s IP address</li>
             <li>Browser type and version</li>
             <li>Pages visited on our Service</li>
             <li>Time and date of visits</li>
@@ -152,7 +147,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Children's Privacy</h2>
+          <h2 className="text-2xl font-semibold mb-4">Children&apos;s Privacy</h2>
           <p className="mb-4">
             Our Service is not directed at individuals under the age of 18, and We do not knowingly collect Personal Data from minors. If You believe Your child has provided Personal Data, please contact Us, and We will take appropriate steps to remove such information.
           </p>
@@ -167,7 +162,9 @@ const PrivacyPolicy = () => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Changes to this Privacy Policy</h2>
-          <p className="mb-4">            We may update Our Privacy Policy periodically, and changes will be effective upon posting. You will be notified of significant updates via email or a notice on Our Service. However, sometimes it may not be feasible to send an email to all website visitors, so we suggest you take a look at Our Privacy Policy page from time to time to get up-to-date information.          </p>
+          <p className="mb-4">
+            We may update Our Privacy Policy periodically, and changes will be effective upon posting. You will be notified of significant updates via email or a notice on Our Service. However, sometimes it may not be feasible to send an email to all website visitors, so we suggest you take a look at Our Privacy Policy page from time to time to get up-to-date information.
+          </p>
         </section>
 
         <section className="mb-8">
@@ -185,16 +182,16 @@ const PrivacyPolicy = () => {
       <footer className="bg-gray-900 p-4 mt-auto">
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex justify-center space-x-4 mb-4">
-            <a href="#" className="text-neon hover:underline">Home</a>
-            <a href="#" className="text-neon hover:underline">Products</a>
-            <a href="#" className="text-neon hover:underline">Blog</a>
-            <a href="#" className="text-neon hover:underline">Contact Us</a>
+            <Link href="/" className="text-neon hover:underline">Home</Link>
+            <Link href="/products" className="text-neon hover:underline">Products</Link>
+            <Link href="/blog" className="text-neon hover:underline">Blog</Link>
+            <Link href="/contact-us" className="text-neon hover:underline">Contact Us</Link>
           </div>
           <div className="flex justify-center space-x-4 mb-4">
-            <a href="#" className="text-neon hover:underline">Sign In</a>
-            <a href="#" className="text-neon hover:underline">Sign Up</a>
-            <a href="#" className="text-neon hover:underline">Terms and Conditions</a>
-            <a href="#" className="text-neon hover:underline">Privacy Policy</a>
+            <Link href="/sign-in" className="text-neon hover:underline">Sign In</Link>
+            <Link href="/sign-up" className="text-neon hover:underline">Sign Up</Link>
+            <Link href="/terms-and-conditions" className="text-neon hover:underline">Terms and Conditions</Link>
+            <Link href="/privacy-policy" className="text-neon hover:underline">Privacy Policy</Link>
           </div>
           <div className="text-gray-400 text-sm">
             © 2024 Beautiful Dark Theme. All rights reserved.
