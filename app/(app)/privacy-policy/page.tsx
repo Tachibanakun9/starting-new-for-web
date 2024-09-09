@@ -5,29 +5,10 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-black-900 text-gray-100 flex flex-col">
       {/* Navbar */}
-      <nav className="bg-gray-800 p-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-white hover:text-lime-500">
-            Nancy Mabez
-          </Link>
-          <ul className="flex space-x-6">
-            <li>
-              <Link href="/" className="text-white hover:text-lime-500">Home</Link>
-            </li>
-            <li>
-              <Link href="/products" className="text-white hover:text-lime-500">Products</Link>
-            </li>
-            <li>
-              <Link href="/contact-us" className="text-white hover:text-lime-500">Contact Us</Link>
-            </li>
-            <li>
-              <Link href="/about-us" className="text-white hover:text-lime-500">About Us</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      
 
-      {/* Privacy Policy Content */}
+
+      {/*Privvacy policy Content */}
       <div className="flex-grow container mx-auto py-8 px-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Privacy Policy</h1>
 
