@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
         <div className="flex-shrink-0">
           <Image
             className="rounded-full"
-            src="https://via.placeholder.com/150"
+            src=""
             alt="Web Prodigies"
             width={32}
             height={32}
